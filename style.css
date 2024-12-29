@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  }
+/* Header Styles */
+header {
+  background-color: hsl(184, 93%, 41%);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  }
+  .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .photo {
+      flex: 1;
+      text-align: center;
+    }
+    
+    .photo img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .about {
+      flex: 1;
+      padding: 20px;
+      text-align: left;
+    }
+    h1 {
+      color :rgb(0, 0, 0)
+    }
+    h2 {
+      color: #22bfca;
+    }
+    h3 {
+      color:#22bfca;
+    }
+    
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .about-photo-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    
+    .about-content {
+      flex: 1;
+      padding: 20px;
+      text-align: left;
+    }
+    
+    .photo-content {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .photo-content img {
+      max-width: 100%;
+      border: 2px solid #000000;
+      border-radius: 10px;
+    }
+    .skills{
+      color:#22bfca;
+      text-align:left;
+    }
+    .connect{
+      background-color: #22bfca;
+      text-align:center;
+    }
+    .education{
+      background-color: #22bfca;
+      padding: 5px;
+    }
+    .form-container{
+      background-color: #000000;
+      padding : 20px 30px;
+      border-radius: 15px;
+      box-shadow: #22bfca;
+      width: 100%;
+      max-width: 400px;
+    }
+    label{
+      display: block;
+      margin: 10px 0 5px;
+      color: #22bfca;
+    }
+    button{
+      width: 30%;
+      background-color: #ffffff;
+      color: #000000;
+      padding: 5px;
+      border: #000000;
+      border-radius: 140px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover{
+      background-color: #2db0d8;
+    }
+    h4{
+      color: #22bfca;
+    }
+    .section{
+      text-align: center;
+      max-width: 1000px;
+      margin: 50px auto;
+      background: #fffffd;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0,1);
+}
+h5{
+  cursor:pointer;
+  color: #22bfca;
+  margin: 20px 0;
+  transition: color 0.3s;
+}
+h5:hover{
+  color: #036796; 
+}
+
+.hidden{
+display: none;
+}
+.neon-text{
+font-size: 2rem;
+font-weight: bold;
+color: rgb(0, 238, 255);
+text-shadow: 0 0 5px #22bfca,0 0 10px #00f,0 0 20px #00f,0 0 40px #00f;
+animation: glow 1.5s infinite alternate;
+}
+@keyframes glow{
+from{
+  text-shadow: 0 0 5px #00f,0 0 10px #00f, 0 0 20px #00f,0 0 40px #00f,0 0 80px #00f,0 0 120px rgb(0, 174, 255);
+}
+
+
+}
+
+
+
+
+
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      }
+    
